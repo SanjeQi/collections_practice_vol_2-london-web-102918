@@ -14,7 +14,7 @@ def contain_a(arr)
   return arr1
 end
 
-<<<<<<< HEAD
+
 
 def first_wa(arr)
     arr.find do |word|
@@ -51,5 +51,4 @@ def organize_schools(schools)
     schools.collect {|k,v| locations_hash[v[:location]] = []}
     locations_hash.each {|k,v| schools.each {|k1,v1| if k == v1[:location] then v << k1  end}}
 end
-=======
->>>>>>> 20e942f5f74c60e600d69998514d4ace16fbe784
+
